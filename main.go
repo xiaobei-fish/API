@@ -18,7 +18,7 @@ func main(){
 	if port!="" {
 		r.Run(":" + port)
 	}else {
-		r.Run() //默认端口号：8080
+		r.Run("3000") //默认端口号：8080
 	}
 }
 
