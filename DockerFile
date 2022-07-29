@@ -1,5 +1,7 @@
 FROM golang:1.16 as builder
 
+MAINTAINER fishone<1597550247@qq.com>
+
 ENV GO111MODULE=on \
     GOPROXY=https://goproxy.cn,direct
 
