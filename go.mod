@@ -1,4 +1,4 @@
-module main
+module NewTest3
 
 go 1.15
 
